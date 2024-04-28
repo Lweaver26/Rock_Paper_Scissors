@@ -1,0 +1,1 @@
+This program is a simple Rock Paper Scissors game that is run entirely in the browser console.
