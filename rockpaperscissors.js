@@ -52,5 +52,7 @@ function playGame() {
         console.log("Winner! Your Score:", humanScore + " " + "Computer Score:", computerScore)
     } else if (humanScore < computerScore) { // else, if the humanScore is less than the computerScore, display the below console message
         console.log("Loser. Your Score:", humanScore + " " + "Computer Score:", computerScore)
+    } else if (humanScore === computerScore) {
+        console.log("Tied Game!")
     }
 }
